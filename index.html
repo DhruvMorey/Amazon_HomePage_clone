@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css level 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <header>
+    <div class="navbar">
+       <div class="nav-logo border">
+        <div class="logo"><a href="http://127.0.0.1:5501/index.html"><img src="amazon_logo.png "height=50></a></div>
+       </div>
+
+       <div class="nav-address border ">
+       <p class="add-first"><a href="https://www.amazon.com/ref=nav_ya_signin?"class="menu-all">Deliver to</a></p> 
+       <div class="add-icon">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="add-sec" ><a href="https://www.amazon.com/ref=nav_ya_signin?"class="menu-all">India</a></p>
+       </div>
+       </div>
+      
+       <div class="nav-search ">
+        <select class="select-search">
+          <option>All</option>
+          <option>Amazon clinic</option>
+          <option>Alexa Skills</option>
+          <option>Appliances</option>
+          <option>Amazon device</option>
+        </select>
+        <input placeholder="Search Amazon"class="input-search">
+        <div class="Search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+       </div>
+
+       <div class="lang border">
+        <div class="lang-icon">
+          <img src="flag.jpg" height="16px" width="21px">
+        </div>
+          <div class="lang-sec" >
+            <select class="lang-select">
+           <b> <option><a href="https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2Fcustomer-preferences%2Fedit%3Fie%3DUTF8%26preferencesReturnUrl%3D%252Fref%253Dnav_logo%26ref_%3Dtopnav_lang_ais&ref_=topnav_lang_ais="class="menu-all"></a>EN</option></b> 
+          </select>
+        </div>
+        </div>
+
+        <div class="acc-list border">
+          <div class="sign-in">
+              <p><a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fcustomer-preferences%2Fedit%3Fie%3DUTF8%26preferencesReturnUrl%3D%252Fref%253Dnav_logo%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"class="menu-all">Hello,Sign in</a></p>
+          </div>
+          <div class="acclist-sec">
+             <select class="acc-select">
+             <option>Account & List</option>
+             </select>
+          </div>
+        </div>
+
+         <div class="return-one border">
+           <div class="returns">
+            <p>Returns</p>
+           </div>
+           <div class="orders">
+             <a href="https://www.amazon.com/ap/signin?_encoding=UTF8&accountStatusPolicy=P1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dnav_orders_first" class="menu-all"> & Orders</a>
+           </div>
+         </div>
+      
+         
+        <div class="cart border ">
+          <div class="cart-logo">
+            <!-- <i class="fa-solid fa-cart-shopping"> -->
+              <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart"class="menu-all"><img src="cart2.jpg " height="40px" ></img></a>
+          </div>
+          <div>
+            <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart"class="menu-all">Cart</a>
+          </div>
+        </div>
+        </div>
+      
+      
+        <div id="menu">
+           <div id="all">
+             <div id="all-logo">
+              <i class="fa-solid fa-bars"></i>
+             </div>
+             <div id="all-all">
+              <a href="https://www.amazon.com/ref=nav_logo"class="menu-all">All</a>
+             </div>
+           </div>
+           <div id="menu-first">
+            <div id="today">
+              <a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb" class="menu-all">Today's Deals</a>
+            </div>
+            <div id="cus">
+              <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice" class="menu-all">Customer Service</a> 
+            </div>
+            <div id="reg">
+              <a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry" class="menu-all">Registry</a>
+            </div>
+            <div id="gif">
+              <a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc" class="menu-all">Gift Cards</a>
+            </div>
+              <div id="sell">
+                <a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell" class="menu-all">Sell</a> 
+              </div>
+          </div>
+          <div id="shop">
+            <a href="" class="menu-all">Shop deals in Electronics</a> 
+          </div>
+         </div>
+        </header>
+
+         <div class="hero-section">
+          <div class="hero-sec">
+          <div class="hero-message">You are on amazon.com.You can also shop on Amazon India for millions of products with fast local delivery.</div>
+            <a href="https://www.amazon.com/ref=nav_logo" class="href">Click here to go to amazon.in</a>
+          </div>
+          
+         </div>
+
+         
+         <div class="shop-section">
+          <div class="box1 box"> 
+            <div class="content">
+            <h2>Refersh Your space</h2>
+            <div class="box-image" style="background-image: url('box1_image.jpg');"></div>
+            <br>
+            <p class="d"><a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%2522957D18D8132C0FCBA2EA0F57FEB9A3F8%2522%252C%2522departments%2522%253A%255B%25221055398%2522%255D%252C%2522sorting%2522%253A%2522BY_SCORE%2522%257D&pd_rd_w=sWpGy&content-id=amzn1.sym.c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_p=c0480761-6b7c-400b-bca5-28ff417248d1&pf_rd_r=EGB8N63WVSD3HWX3RNMK&pd_rd_wg=PMH3N&pd_rd_r=05fe9a48-ea0f-44e6-84a2-9a74281dcb70">See More</a></p>
+          </div>
+          </div>
+          <div class="box2 box">
+            <div class="content">
+              <h2>Deals in PCs</h2>
+              <div class="box-image" style="background-image: url('box-2.jpg');"></div>
+              <br>
+              <p class="d"><a href="https://www.amazon.com/gp/goldbox/?ie=UTF8&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252219A70421F1B18305BA3C837E25E8FD">See More</a></p>
+            </div>
+          </div>
+          <div class="box3 box">
+            <div class="content">
+              <h2>New Year,New supplise</h2>
+              <div class="box-image" style="background-image: url('box-3.jpg');"></div>
+              <br>
+              <p class="d"><a href="https://www.amazon.com/s?k=school+supplies&_encoding=UTF8&content-id=amzn1.sym.7acbca95-6949-4783-9691-9ac9df8021d9&pd_rd_r=b764280d-c228-494c-8336-86d806bc86e1&pd_rd_w=dF2aD&pd_rd_wg=Kt7Cy&pf_rd_p=7acbca95-6949-4783-9691-9ac9df8021d9&pf_rd_">Shop Offic Product</a></p>
+            </div>
+          </div>
+          <div class="box4 box">
+            <div class="content">
+              <h2>Top Deal</h2>
+              <div class="box-image" style="background-image: url('box-4.jpg');"></div>
+              <br>
+              <p class="d">See More</p>
+            </div>
+          </div>
+        
+         
+         <div class="shop-sectionsec">
+          <div class="box1 box"> 
+            <div class="content">
+            <h2>Beauty Picks</h2>
+            <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+            <br>
+            <p class="d">Shop More</p>
+          </div>
+          </div>
+          <div class="box2 box">
+            <div class="content">
+              <h2>Lunar New Year</h2>
+              <div class="box-image" style="background-image: url('box-6.jpg');"></div>
+              <br>
+              <p class="d">Shop More</p>
+            </div>
+          </div>
+          <div class="box3 box">
+            <div class="content">
+              <h2>Art & Craft</h2>
+              <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+              <br>
+              <p class="d">Shop More</p>
+            </div>
+          </div>
+          <div class="box4 box">
+            <div class="content">
+              <h2>Fashion</h2>
+              <div class="box-image" style="background-image: url('box8_image.jpg');"></div>
+              <br>
+              <p class="d">Shop More</p>
+            </div>
+          </div>
+         </div>
+ </div>
+ <!-- sign in -->
+ <div class="log-in">
+  <div class="log">See Personalized Recommdations</div>
+  <div class="input" width="50px"><a href="https://www.amazon.com/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Drhf_sign_in&openid.assoc_handle=usflex&openid.pape.max_auth_age=0"class="menu-all">Sign in</a></div>
+  <div class="new">New Costomer?
+    <a href="https://www.amazon.com/ref=nav_logo" class="href">Start here</a>
+  
+  </div>
+ </div>
+ 
+ <div class="back">
+  <div class="back-sec">Back To Top</div>
+ </div>
+  <div class="footerr">
+<div class="footer">
+  <div class="foot-one foot">
+    <div class="Get">
+     <h4 class="get-sec">Get to Know Us</h3> 
+     </div>
+    <div class="know ">
+      <ol class="bullet" >
+      <li class="con two">Careers</li>
+      <li class="con two">Blog</li>
+      <li class="con two">About Amazon</li>
+      <li class="con two">Investor Relation</li>
+      <li class="con two">Amazon Devices</li>
+      <li class="con two">Amazon Science</li>
+      </ol>
+    </div>
+  </div>
+  <div class="foot-two foot" >
+    <div class="money">
+      <h4>Make Money with Us</h4>
+    </div>
+    <div class="money-sec">
+      <ol class="bullet">
+        <li class="con two">Sell pruducts on Amazon</li>
+        <li class="con two">Sell on Amazon Business</li>
+        <li class="con two">Sell apps on Amazon</li>
+        <li class="con two">Become an Affiliate</li>
+        <li class="con two">Advertise Your Product</li>
+        <li class="con two">Self-Public with Us</li>
+        <li class="con two">Host an Amazon Hub</li>
+        </ol>
+    </div>
+  </div>
+  <div class="foot-three foot">
+    <div class="payment">
+      <h4>Amazon Payment Product</h4>
+    </div>
+    <div class="money-sec">
+      <ol class="bullet">
+        <li class="con two">Amazon busness Card</li>
+        <li class="con two">Shop with Points</li>
+        <li class="con two">Reload your Balance</li>
+        <li class="con two">Amazon Currency Converter</li>
+        </ol>
+    </div>
+  </div>
+  <div class="foot-four foot">
+    <div class="money">
+      <h4>Make Money with Us</h4>
+    </div>
+    <div class="money-sec">
+      <ol class="bullet">
+        <li class="con two">Amazon & Covid-19</li>
+        <li class="con two">Your Account</li>
+        <li class="con two">Your Orders</li>
+        <li class="con two">Shopping rates</li>
+        <li class="con two">Returns & Replacement</li>
+        <li class="con two">Content & Device</li>
+        <li class="con two">Amazon Assistant</li>
+        <li class="con two">Help</li>
+        
+        </ol>
+    </div>
+  </div>
+  </div>
+  <div class="bottom">
+    <div class="bottom-image"></div>
+    
+    <div class="bottom-lang align">
+      <i class="fa-solid fa-globe"></i>
+      <select style="border: none;background-color: #263141; color: white;">
+        <option>English</option>
+        <option>Hindi</option>
+        <option>Marathi</option>
+        <option>Urdu</option>
+        <option>English</option>
+      </select>
+    </div>
+    <div class="dollor align">
+      $ <p>USD-U.S.Dollor</p>
+    </div>
+    <div class="contry align">
+      <img src="flag.jpg" height="10px"></img>United States
+    </div>
+   </div>
+  </div>
+  <!-- bottm -->
+  
+
+
+
+</body>
+</html>
